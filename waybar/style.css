@@ -1,0 +1,77 @@
+@import 'mocha.css';
+
+* {
+  border: none;
+  font-family: "JetBrainsMono Nerd Font", sans-serif;
+  font-size: 14px;
+  min-height: 0;
+}
+
+.modules-left {
+  padding: 4px 0;
+}
+
+.modules-right {
+  padding: 4px 0;
+}
+
+.modules-left * {
+  border-radius: 50px;
+}
+
+.modules-right * {
+  border-radius: 50px;
+}
+
+window#waybar {
+  /* background-color: @base; */
+  background-color: transparent;
+  color: @text;
+}
+
+#workspaces button.active {
+  background: @surface0; 
+}
+
+#pulseaudio {
+  background: @green;
+  color: @crust;
+  padding: 0 10px;
+}
+
+#network {
+  background: @red;
+  color: @crust;
+  padding: 0 10px;
+}
+
+#memory {
+  background: @yellow;
+  color: @crust;
+  padding: 0 10px;
+}
+
+#cpu {
+  background: @peach;
+  color: @crust;
+  padding: 0 10px;
+}
+
+
+#temperature {
+  background: @sapphire;
+  color: @crust;
+  padding: 0 10px;
+}
+
+#clock {
+  background: @mauve;
+  color: @crust;
+  padding: 0 10px;
+}
+
+#tray {
+  background: @maroon;
+  color: @crust;
+  padding: 0 10px;
+}

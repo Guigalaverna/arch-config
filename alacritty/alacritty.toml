@@ -1,0 +1,10 @@
+import = ["~/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+
+[font]
+normal = {family="JetBrainsMono Nerd Font", style="Regular"}
+
+[window]
+opacity = 0.8
+
+[cursor]
+style = "Beam"
